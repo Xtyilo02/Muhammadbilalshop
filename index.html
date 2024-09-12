@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Bilal Shop - Posts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar with search bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="admin-login.html">Admin Panel</a>
+        <form id="searchForm" onsubmit="performSearch(event)">
+            <input type="text" id="searchInput" placeholder="Search posts...">
+            <button type="submit">Search</button>
+        </form>
+    </nav>
+
+    <!-- Section to display posts -->
+    <div id="postList"></div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Muhammad Bilal Shop | Social Media Links | Contact Info</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
